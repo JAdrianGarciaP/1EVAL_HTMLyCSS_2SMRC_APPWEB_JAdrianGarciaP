@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi primer formulario</title>
+  </head>
+
+  <body style="margin: 70px; background-color: rgb(191, 190, 253)">
+    <p style="background-color: rgb(211, 184, 149)">Mi primer formulario.</p>
+    <form action="pruebadatos.php" method="get">
+      <fieldset id="DatosBasicos">
+        <legend>Datos Básicos</legend>
+        <p>Documento de identidad: <input type="text" size="9" name="DNI"></p>
+        <p>Nombre <input type="text" name="Nombre"></p>
+        <p>
+          Fecha de nacimiento
+          <input type="date" name="nacimiento" id="FechaNacimiento">
+        </p>
+        Sexo: <input type="radio" name="genero" id="Hombre"> Hombre
+        <input type="radio" name="genero" id="Mujer"> Mujer
+        <p>Correo electrónico <input type="email"></p>
+        <p>
+          Pais de nacimiento
+          <select name="Pais" id="pais">
+            <option value="Colombia">Colombia</option>
+            <option value="Dinamarca">Dinamarca</option>
+            <option value="Escandinavia">Escandinavia</option>
+            <option value="España">España</option>
+            <option value="Estonia">Estonia</option>
+          </select>
+        </p>
+
+        <p>Incluya una foto <input type="file" ></p>
+      </fieldset>
+      <p>
+        Número de herman@s <input type="number" name="Hermanos" id="Hermanos" >
+      </p>
+      <p>
+        Cuéntanos algo de ti
+        <textarea name="Varios" id="Varios" cols="20" rows="5"></textarea>
+      </p>
+      <p> Nueva contraseña:<input type="password" name="Password"> </p>
+      <p>  Repita la nueva contraseña: <input type="password"></p>
+       
+        <button type="reset">Reiniciar</button>
+        <button type="submit">Registrarse</button>
+        
+    </form>
+  </body>
+</html>
