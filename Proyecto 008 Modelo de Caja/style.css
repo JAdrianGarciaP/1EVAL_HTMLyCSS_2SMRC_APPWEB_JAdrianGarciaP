@@ -1,0 +1,37 @@
+html{
+    border-style: solid;
+    border-width: 7px;
+    border-color:teal
+}
+body{
+    background-color: darkkhaki;
+    margin: 9px;
+}
+h1{
+    border-style: dashed;
+    border-width: 2px 1px 2px 4px;
+    box-shadow: 10px;
+    border-color: blue red purple green;
+    padding: 15px;
+    margin-right: 204px;
+    background-color: aquamarine ;
+    font-style:oblique;
+    font-weight: 1000;   
+    border-radius: 5% 55% 7% 30%;
+}
+p{    
+    padding: 10px ;
+    margin-right: 25%;
+    background-color: darksalmon;
+    border-style: ;
+    border-color: ;
+    border-width: 0.3em;
+    outline-style:auto;
+    outline-offset: 2px;
+    border-bottom-style: dotted;
+    
+}
+ul{
+    list-style-image:url(Imagenes/iconotonto.jpg);
+    list-style-position:inside;
+}
