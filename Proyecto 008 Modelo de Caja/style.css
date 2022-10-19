@@ -35,3 +35,8 @@ ul{
     list-style-image:url(Imagenes/iconotonto.jpg);
     list-style-position:inside;
 }
+#barra1{
+    height: 10px;
+    color:teal;
+    box-shadow: 10px;
+}
