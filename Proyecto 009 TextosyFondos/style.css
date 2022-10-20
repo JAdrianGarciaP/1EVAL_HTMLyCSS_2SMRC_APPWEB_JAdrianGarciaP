@@ -1,0 +1,32 @@
+.textoprueba1{
+    color: blueviolet;
+    background-color:thistle;
+    padding: 0%;
+    margin: 0px;
+    border: 0ch;
+}
+hr{
+    width:60%;
+    height: 20px;
+    background-color: blueviolet;
+    border-style: red 4px solid;
+}
+span.texto{
+    color: red;
+}
+pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    background-color: beige;
+    border: solid;
+    border-color:burlywood;
+    padding: 2%;
+
+}
+span#ira{
+    color: blueviolet;
+    font-style: oblique;
+}p.Viento{
+    font-size: small;
+    padding-left: 200pt;
+}
