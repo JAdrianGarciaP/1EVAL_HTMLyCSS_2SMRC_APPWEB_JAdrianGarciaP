@@ -6,6 +6,13 @@ div#Cabecera{
 }
 h1{
     float: right;
+    padding: 15px;
+    border-style:solid ;
+    border-color: brown;
+    margin:10px;
+    padding-right: 10px;
+    border-radius: 10px 30px;
+    background-color: rgb(214, 76, 76); 
 }
 ul li{
     box-sizing: border-box;
@@ -19,8 +26,15 @@ ul li{
 header{
     height: 20%;
     background-color: rgb(255, 160, 125);
+    border-style: solid;
+    margin: 20px
 
 }
+ul li:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 238, 75);
+}
+
 nav{
     background-color: aquamarine;
     height: 30%;
@@ -31,4 +45,17 @@ main{
     background-color: wheat;
     width: 60%;
     float:right;
+}
+
+  ul li a:link{
+    text-decoration: none;
+    color: rgb(60, 37, 189);
+}
+
+a:nth-child(odd):hover{
+    color: azure;
+}
+
+a:nth-child(even):hover{
+    color: rgb(185, 255, 65);
 }

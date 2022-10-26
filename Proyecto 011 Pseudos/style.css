@@ -1,0 +1,38 @@
+body{
+    font-size: smaller;
+}
+a:hover{
+    background-color: coral;
+    color:steelblue;
+}
+a:link{
+    background-color: antiquewhite;
+    border-style: dotted;
+    border-width: 0.12px;
+}
+a:visited{
+    background-color: blueviolet;
+    color: aqua;
+}
+a:active{
+    color: aquamarine;
+    border-style: solid;
+}
+
+h1{
+    background-color: burlywood;
+    padding: 10px;
+    margin-right: 300px;
+    border-radius: 30px 200px 30px 90px;
+    border-style: groove;
+    border-color: tomato;
+}
+input:focus{
+    border-style: dotted;
+    border-width:4px;
+    border-color: crimson;
+    background-color: palegreen;
+}
+q:lang(es){
+    background-color: aqua;
+}
